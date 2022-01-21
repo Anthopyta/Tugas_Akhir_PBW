@@ -44,3 +44,90 @@ table {
 
 
 /* style */
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #a8dadc;
+}
+
+body{
+	font: 16px/28px arial, sans-serif;
+	background-color: #f1faee;
+	color: #1d3557;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #457b9d;
+	padding: 12px 5px 15px;
+}
+
+.header a:hover {
+	background-color: #e63946;
+	color: #f1faee;
+}
+
+.hero {
+	height: 280px;
+	background-image: url(code.jpg);
+	background-size: cover;
+	background-position: 0 -150px;
+	border-top: 5px solid #e5e5e5;
+	border-bottom: 5px solid #e5e5e5;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-size: 11px;  
+	margin-top: -5px;
+}
+
+.content .penulis a{
+	color: #457b9d;
+	text-decoration: none;
+}
+
+.content p {
+	margin-bottom: 18px;
+	font-size: 14px;
+}
+
+.footer {
+	background-color: #1d3557;
+	padding: 10px;
+}
+
+.footer .copy{
+	color: #f1faee;
+	font-size: 12px;
+	text-align: center;
+
+}
+
+
+
+
